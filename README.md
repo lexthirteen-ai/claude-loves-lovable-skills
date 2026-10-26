@@ -32,7 +32,7 @@ sessions/01-brand/
 3. Open the session's `build-guide.md` and follow it.
 4. Install: [docs/install.md](docs/install.md) covers claude.ai and Claude Code.
 
-Skills work on free Claude accounts. Turn on code execution in Settings → Capabilities first.
+Skills work on free Claude accounts. Turn on code execution first: Settings → Capabilities → Code execution and file creation.
 
 ## Bonus skills
 

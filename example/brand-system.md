@@ -33,8 +33,8 @@ Contrast checked: Night Route on Fresh Towel 13.4:1. White on Fetch 4.9:1. White
 ## Voice
 1. **Booked, not "managed".** "Bella's bath is Thursday at 10." Not: "Manage your appointments efficiently."
 2. **The groomer's business, not our platform.** "Your regulars, your prices, your route." Not: "Join thousands of pet professionals on our platform."
-3. **Calm confidence.** "Running late? We already let them know." Not: "Never worry about scheduling again!"
-4. **Plain-spoken.** "Clients book from a link. No app to download." Not: "A seamless omnichannel booking experience."
+3. **Calm, not cheerful.** "Running late? We already let them know." Not: "Never worry about scheduling again!"
+4. **Plain words, not platform words.** "Clients book from a link. No app to download." Not: "A seamless omnichannel booking experience."
 
 ## How to use this
 Paste this whole file into the Lovable project's knowledge (project settings). Start the first build prompt with "Follow the brand system in project knowledge."

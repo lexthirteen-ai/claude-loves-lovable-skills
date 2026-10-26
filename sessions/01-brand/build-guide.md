@@ -5,7 +5,8 @@
 You will build the skill, install it, and run it on your own product. By the end you have `brand-system.md` pasted into a Lovable project.
 
 ## Before you start
-- [ ] Signed in to claude.ai. Code execution is on (Settings → Capabilities), which skills need.
+- [ ] Signed in to claude.ai. Code execution is on (Settings → Capabilities → Code execution and file creation), which skills need.
+- [ ] Signed in to Lovable in a second tab.
 - [ ] You have this folder: `sessions/01-brand/`.
 - [ ] You have a one- or two-sentence description of your product.
 
@@ -14,7 +15,11 @@ You will build the skill, install it, and run it on your own product. By the end
 2. Paste the build prompt from [docs/build-your-own.md](../../docs/build-your-own.md#the-build-prompt).
 3. Answer Claude's questions with what we decided in the 0:15 block: the four read-the-room questions, the five-color rule, the two-font rule, the two-sentence tagline, and voice as contrast pairs.
 4. When Claude gives you the finished file, check it against the list below.
-5. Package and install it. Follow [docs/install.md](../../docs/install.md). Copy `finished/brand-identity-builder/references/` into your folder first, so your output matches the format the next four skills expect.
+5. Package and install it:
+   1. Make a new folder named exactly `brand-identity-builder`.
+   2. Save Claude's file inside it as `SKILL.md`.
+   3. Copy the `references/` folder from `finished/brand-identity-builder/` into it, so your output matches the format the next four skills expect.
+   4. Zip the folder and upload it. Follow [docs/install.md](../../docs/install.md).
 
 ## Check your skill against the finished version
 Open `finished/brand-identity-builder/SKILL.md` and confirm yours has:
@@ -41,7 +46,13 @@ If the skill does not kick in, your description is not saying when to use it. Ed
 ## Into Lovable (1:10 block)
 1. Open your Lovable project, or start one.
 2. Paste the full `brand-system.md` into the project's knowledge (project settings).
-3. Re-run the prompt from the live demo, starting with "Follow the brand system in project knowledge."
+3. Run the same prompt from the live demo, with your product in it:
+
+```text
+Follow the brand system in project knowledge. Build a one-page landing page for [product name]: [your one-sentence description]. Include a hero with the tagline, three short sections on what it does, and one sign-up button.
+```
+
+Every Lovable prompt uses credits. If you are low, run this one prompt and skip the extras.
 
 ## Out of time?
 Install `finished/brand-identity-builder/` as-is (see [docs/install.md](../../docs/install.md)), and fill in the starter as homework.
