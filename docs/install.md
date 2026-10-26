@@ -9,7 +9,7 @@ Skills are available on Free, Pro, Max, Team, and Enterprise plans. They need co
 4. Make sure the skill is toggled on.
 5. Test it in a **new** chat.
 
-Ready-made zips of every finished skill: run `scripts/package-skills.sh` from the repo root (it writes them to `dist/`), or download them from the repo's Releases page if one has been published.
+Ready-made zips of every finished skill are in the kit's `ready-to-upload/` folder. Working from the repo instead? Run `scripts/package-skills.sh` from the repo root, and it writes them to `dist/`.
 
 To update a skill, edit it, zip it again, and upload it again.
 
