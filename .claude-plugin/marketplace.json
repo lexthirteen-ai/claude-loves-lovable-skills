@@ -1,0 +1,17 @@
+{
+  "name": "claude-loves-lovable",
+  "owner": {
+    "name": "Lex",
+    "url": "https://github.com/lexthirteen-ai"
+  },
+  "metadata": {
+    "description": "The Claude Loves Lovable workshop skills: brand, pitch, MVP, website, and code handoff for building with Claude and Lovable."
+  },
+  "plugins": [
+    {
+      "name": "claude-loves-lovable",
+      "source": "./",
+      "description": "Nine skills for getting from an idea to a shipped product with Claude and Lovable: brand, pitch, MVP, website, and code handoff, plus four bonus skills."
+    }
+  ]
+}

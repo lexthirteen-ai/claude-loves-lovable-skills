@@ -1,0 +1,13 @@
+{
+  "name": "claude-loves-lovable",
+  "description": "Nine skills for getting from an idea to a shipped product with Claude and Lovable: brand, pitch, MVP, website, and code handoff, plus four bonus skills for saving, testing, launching, and finding your first users.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lex",
+    "url": "https://github.com/lexthirteen-ai"
+  },
+  "homepage": "https://github.com/lexthirteen-ai/claude-loves-lovable-skills",
+  "repository": "https://github.com/lexthirteen-ai/claude-loves-lovable-skills",
+  "license": "MIT",
+  "keywords": ["lovable", "workshop", "brand", "pitch", "prd", "website", "claude-code"]
+}

@@ -30,7 +30,7 @@ sessions/01-brand/
 1. Unzip the kit you were sent. Ready-to-upload skill zips are in its `ready-to-upload/` folder. (Or download this repo, or `git clone` it.)
 2. Read [docs/anatomy-of-a-skill.md](docs/anatomy-of-a-skill.md) (five minutes).
 3. Open the session's `build-guide.md` and follow it.
-4. Install: [docs/install.md](docs/install.md) covers claude.ai and Claude Code.
+4. Install: [docs/install.md](docs/install.md) covers claude.ai and Claude Code, or add this repo as a plugin to get all nine skills at once.
 
 Skills work on free Claude accounts. Turn on code execution first: Settings → Capabilities → Code execution and file creation.
 

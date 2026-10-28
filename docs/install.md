@@ -27,3 +27,13 @@ cp -R sessions/05-claude-code/finished/lovable-codebase-handoff ~/.claude/skills
 ```
 
 Copy any other skill folder the same way. Start a new Claude Code session and it's available. You can also run one by name, for example `/lovable-codebase-handoff`.
+
+## As a plugin (all nine at once)
+This repo is also a plugin. Adding it installs every finished and bonus skill in one go, and updates arrive when the repo does.
+
+- **Claude app:** Customize → Plugins → add from GitHub, and paste `https://github.com/lexthirteen-ai/claude-loves-lovable-skills`.
+- **Claude Code:** run `/plugin marketplace add lexthirteen-ai/claude-loves-lovable-skills`, then `/plugin install claude-loves-lovable@claude-loves-lovable`.
+
+Skills from the plugin are named with a prefix, for example `/claude-loves-lovable:brand-identity-builder`.
+
+The plugin installs what's in the `skills/` folder. Don't edit it by hand: edit the skill in its `sessions/` or `bonus/` folder, then run `scripts/package-skills.sh`, which rebuilds both `skills/` and `dist/`.
